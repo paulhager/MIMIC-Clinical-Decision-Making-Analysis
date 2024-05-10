@@ -16,6 +16,14 @@ Meditron: https://huggingface.co/TheBloke/meditron-70B-GPTQ
 
 Then, after creating the dataset using the code from https://github.com/paulhager/MIMIC-Clinical-Decision-Making-Dataset, run all experiments with the code from https://github.com/paulhager/MIMIC-Clinical-Decision-Making-Framework.
 
-The experiments that need to be run are specified in jobs_to_run.sh. As these are hundreds of experiments, we highly recommend using a cluster with some type of multi-job scheduling. We leave the exact implementation up to the specifics of the users system.
+The experiments that need to be run are specified in jobs_to_run.sh. Note the comment at the top of the file. As these are hundreds of experiments, we highly recommend using a cluster with some type of multi-job scheduling. We leave the exact implementation up to the specifics of the users system.
 
-Once the files are created, they can be aggregated and pulled using download.py. The results should be grouped by experiment in seperate folders and then analysed using evaluate_cdm.py and evaluate_fi.py. Then, execute all of the cells of benchmark.ipynb, specifying the path to each experiment, to generate all results of the paper.
+Once the files are created, they can be aggregated and pulled using download.py. The results should be grouped by experiment in seperate folders evaluate_cdm.py and evaluate_fi.py. Then, execute all of the cells of benchmark.ipynb, specifying the path to each experiment, to generate all results of the paper.
+
+## Environment
+
+To setup the environment, create a new virtual environment of your choosing and then run 
+
+```
+pip install --no-deps -r requirements.txt
+```

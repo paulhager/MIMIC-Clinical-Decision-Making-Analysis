@@ -1,4 +1,4 @@
-# Run all of these analyses with all combinations of 
+# NOTE: These experiments must be run multiple times with all combinations of model and pathology:
 # model=WizardLM70B , model=OASST70B , model=Llama2Chat70B
 # pathology=appendicits , pathology=cholecystitis , pathology=diverticulitis , pathology=pancreatitis
 

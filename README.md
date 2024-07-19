@@ -20,6 +20,8 @@ The experiments that need to be run are specified in jobs_to_run.sh. Note the co
 
 Once the files are created, they can be aggregated and pulled using download.py. The results should be grouped by experiment in seperate folders evaluate_cdm.py and evaluate_fi.py. Then, execute all of the cells of benchmark.ipynb, specifying the path to each experiment, to generate all results of the paper.
 
+Visit https://huggingface.co/spaces/MIMIC-CDM/leaderboard to check out the current leaderboard. I will update this as new models are released. If you would like a model to be tested and put on the board, please write me an email at paul (dot) hager (at) tum (dot) de.
+
 ## Environment
 
 To setup the environment, create a new virtual environment with python=3.10 of your choosing and then run 

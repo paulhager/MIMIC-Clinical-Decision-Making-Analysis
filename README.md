@@ -1,5 +1,7 @@
 # MIMIC Clinical Decision Making Analysis
 
+**🔥 New Addition: Llama 3.1 has been added to the leaderboard! 🔥**
+**🔥 New Addition: OpenBio has been added to the leaderboard! 🔥**
 **🔥 New Addition: Llama 3 has been added to the leaderboard! 🔥**
 
 This folder contains the code used during the analysis of the paper "Evaluating and Mitigating Limitations of Large Language Models in Clinical Decision Making".

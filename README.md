@@ -1,5 +1,9 @@
 # MIMIC Clinical Decision Making Analysis
 
+For a video overview of the paper, checkout this talk I held for the BZKF: https://www.youtube.com/watch?v=sCDaUC16mHA
+
+## News
+
 **🔥 New Addition: Llama 3.3 has been added to the leaderboard! 🔥**
 
 **🔥 New Addition: Llama 3.1 has been added to the leaderboard! 🔥**
@@ -7,6 +11,8 @@
 **🔥 New Addition: OpenBio has been added to the leaderboard! 🔥**
 
 **🔥 New Addition: Llama 3 has been added to the leaderboard! 🔥**
+
+## Overview
 
 This folder contains the code used during the analysis of the paper "Evaluating and Mitigating Limitations of Large Language Models in Clinical Decision Making".
 
